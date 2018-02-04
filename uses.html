@@ -5,12 +5,17 @@
     <title>Uses</title>
   </head>
   <body>
+    <header role="banner">
+      <h1>Orchidaceae: The Orchid Family</h1>
+    </header>
+
     <!-- navigation -->
     <details>
       <summary>Table of Contents</summary>
-      <nav>
+      <nav role="navigation">
         <!-- Table of Contents -->
         <ul>
+          <li><a href="index.html#Introduction">Introduction</a></li>
           <li><a href="description.html#Description">Description</a>
             <!-- nested list must be inside the list item -->
             <ul>
@@ -33,7 +38,7 @@
           </li>
 
           <li><a href="distribution.html">Distribution</a></li>
-          <li><a href="ecology.html">Ecology</a></summary></li>
+          <li><a href="ecology.html">Ecology</a></li>
 
           <li><a href="uses.html">Uses</a>
             <ul>
@@ -49,9 +54,12 @@
       </nav>
     </details>
 
-    <main id="Uses">
+    <main id="Uses" role="main">
       <!-- Uses -->
-      <h2>Uses</h2>
+      <header>
+        <h2>Uses</h2>
+      </header>
+
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/2007-12-17AdventFlowerShop02.jpg/170px-2007-12-17AdventFlowerShop02.jpg" alt="">
       <p>As decoration in a flowerpot</p>
 
@@ -94,5 +102,7 @@
     </main>
 
     <a href="index.html#Introduction">Back to Introduction</a>
+
+    <footer role="contentinfo"><p>From Wikipedia, the free encyclopedia</p></footer>
   </body>
 </html>

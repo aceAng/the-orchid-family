@@ -5,12 +5,17 @@
     <title>Description</title>
   </head>
   <body>
+    <header role="banner">
+      <h1>Orchidaceae: The Orchid Family</h1>
+    </header>
+
     <!-- navigation -->
     <details>
       <summary>Table of Contents</summary>
-      <nav>
+      <nav role="navigation">
         <!-- Table of Contents -->
         <ul>
+          <li><a href="index.html#Introduction">Introduction</a></li>
           <li><a href="description.html#Description">Description</a>
             <!-- nested list must be inside the list item -->
             <ul>
@@ -33,7 +38,7 @@
           </li>
 
           <li><a href="distribution.html">Distribution</a></li>
-          <li><a href="ecology.html">Ecology</a></summary></li>
+          <li><a href="ecology.html">Ecology</a></li>
 
           <li><a href="uses.html">Uses</a>
             <ul>
@@ -50,7 +55,7 @@
     </details>
 
     <!-- Description -->
-    <main id="Description">
+    <main id="Description" role="main">
       <h2>Description</h2>
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Orchid_high_resolution.jpg/220px-Orchid_high_resolution.jpg" alt="">
       <p>High resolution image of orchid</p>
@@ -175,5 +180,7 @@
     </main>
 
     <a href="index.html#Introduction">Back to Introduction</a>
+
+    <footer role="contentinfo"><p>From Wikipedia, the free encyclopedia</p></footer>
   </body>
 </html>
