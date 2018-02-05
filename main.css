@@ -1,0 +1,28 @@
+h1, h2, h3{
+  font-family: adobe-garamond-pro;
+  font-weight: 600;
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.7em;
+}
+h3 {
+  font-size: 1.4em;
+}
+p {
+  font-variant: small-caps;
+  font-size: 1.2em;
+  text-align: justify;
+}
+footer p {
+  font-variant: normal;
+  font-size: .95em;
+  font-style: italic;
+}
+p.img-cap {
+  font-variant: none;
+  font-size: .95em;
+}
