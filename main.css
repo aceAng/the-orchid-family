@@ -18,7 +18,7 @@ h3 {
   font-size: 1.4em;
 }
 p {
-  font-variant: small-caps;
+  /*font-variant: small-caps;*/
   font-size: 1.2em;
   text-align: justify;
   line-height: 1.5em;
