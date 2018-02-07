@@ -1,14 +1,18 @@
-h1, h2, h3 {
-  font-family: adobe-garamond-pro;
+* {
+  font-family: adobe-garamond-pro, serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: adobe-garamond-pro, serif;
   font-weight: 600;
   font-style: italic;
   letter-spacing: .03em;
 }
 h1 {
-  font-size: 3em;
+  font-size: 2.3em;
 }
 h2 {
-  font-size: 1.7em;
+  font-size: 1.8em;
 }
 h3 {
   font-size: 1.4em;
@@ -17,16 +21,21 @@ p {
   font-variant: small-caps;
   font-size: 1.2em;
   text-align: justify;
+  line-height: 1.5em;
 }
 footer p {
   font-variant: normal;
   font-size: .95em;
   font-style: italic;
 }
-p.img-cap, p.main-article, caption {
+p.img-cap, p.main-article, caption, p.further-info, td {
   font-variant: none;
-  font-size: .95em;
+  font-size: .97em;
 }
-ul.genera-list {
-  letter-spacing: .03em;
+ul.genera-list, p.img-cap {
+  letter-spacing: .02em;
+}
+ul li {
+  line-height: 1.8em;
+  letter-spacing: .02em
 }
