@@ -2,40 +2,47 @@
   font-family: adobe-garamond-pro, serif;
 }
 
-h1, h2, h3, h4 {
-  font-family: adobe-garamond-pro, serif;
-  font-weight: 600;
-  font-style: italic;
-  letter-spacing: .03em;
+h1, h2, h3, h4,
+ul.genera-list,
+p.img-cap,
+ul.content-table,
+p.main-article,
+caption,
+p.further-info,
+footer p {
+  font-variant: small-caps;
+  letter-spacing: .04em;
+  line-height: 1.8em;
 }
 h1 {
-  font-size: 2.3em;
+  font-size: 2.5em;
 }
 h2 {
-  font-size: 1.8em;
+  font-size: 2em;
 }
 h3 {
-  font-size: 1.4em;
+  font-size: 1.7em;
+}
+ul.genera-list {
+  font-size: 1.04em;
+}
+p.img-cap,
+ul.content-table,
+p.main-article,
+caption,
+p.further-info,
+footer p {
+  font-size: 1em;
 }
 p {
-  /*font-variant: small-caps;*/
   font-size: 1.2em;
   text-align: justify;
   line-height: 1.5em;
 }
-footer p {
-  font-variant: normal;
-  font-size: .95em;
-  font-style: italic;
-}
-p.img-cap, p.main-article, caption, p.further-info, td {
-  font-variant: none;
-  font-size: .97em;
-}
-ul.genera-list, p.img-cap {
+ul.content-list, td {
+  line-height: 1.5em;
   letter-spacing: .02em;
 }
-ul li {
-  line-height: 1.8em;
-  letter-spacing: .02em
+ul.content-table li a {
+  text-decoration: none;
 }
