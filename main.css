@@ -33,7 +33,6 @@ td {
 p, summary.contents, ul.content-list li, ul.genera-list {
   font-family: 'Gentium Basic', serif;
   font-size: 1.1em;
-  text-align: justify;
   line-height: 1.5;
   letter-spacing: .01em;
 }
