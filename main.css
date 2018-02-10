@@ -1,18 +1,12 @@
-* {
-  font-family: adobe-garamond-pro, serif;
-}
-
 h1, h2, h3, h4,
-ul.genera-list,
 p.img-cap,
 ul.content-table,
 p.main-article,
 caption,
 p.further-info,
-footer p {
-  font-variant: small-caps;
-  letter-spacing: .04em;
-  line-height: 1.8;
+footer p,
+a.contents {
+  font-family: 'Playfair Display SC', serif;
 }
 h1 {
   font-size: 2.5em;
@@ -27,22 +21,23 @@ ul.genera-list {
   font-size: 1.04em;
 }
 p.img-cap,
-ul.content-table,
 p.main-article,
 caption,
 p.further-info,
-footer p {
-  font-size: 1em;
+td {
+  font-family: sans-serif;
+  font-size: .8em;
+  letter-spacing: .02em;
+  line-height: 1.7;
 }
-p {
-  font-size: 1.2em;
+p, summary.contents, ul.content-list li, ul.genera-list {
+  font-family: 'Gentium Basic', serif;
+  font-size: 1.1em;
   text-align: justify;
   line-height: 1.5;
+  letter-spacing: .01em;
 }
-ul.content-list, td {
-  line-height: 1.7;
-  letter-spacing: .02em;
-}
-ul.content-table li a {
+ul.content-table li a, footer p {
+  font-size: .9em;
   text-decoration: none;
 }
