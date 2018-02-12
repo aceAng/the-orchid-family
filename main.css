@@ -1,3 +1,7 @@
+body {
+  background:#fff4ff;
+  color:#403227;
+}
 h1, h2, h3, h4,
 p.img-cap,
 ul.content-table,
@@ -37,4 +41,19 @@ p, summary.contents, ul.content-list li, ul.genera-list {
 ul.content-table li a, footer p {
   font-size: 0.95em;
   text-decoration: none;
+}
+a:visited {
+  color:#80246d;
+}
+a:link {
+  color:#3a1032;
+}
+a:hover, ul.content-table li a:hover {
+  text-decoration:underline;
+}
+a:active {
+  color: #403227;
+}
+::selection {
+  background:#ffe1fe;
 }
