@@ -1,6 +1,7 @@
 body {
   background:#fff4ff;
   color:#403227;
+  margin: 3em;
 }
 h1, h2, h3, h4,
 p.img-cap,
@@ -56,9 +57,9 @@ a:active {
 }
 ::selection {
   background:#403227;
-  color: white;
+  color: #ececec;
 }
 ::-moz-selection {
   background:#ffe1fe;
-  color: white;
+  color: #ececec;
 }
