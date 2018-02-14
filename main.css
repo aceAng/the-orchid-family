@@ -55,5 +55,10 @@ a:active {
   color: #403227;
 }
 ::selection {
+  background:#403227;
+  color: white;
+}
+::-moz-selection {
   background:#ffe1fe;
+  color: white;
 }
