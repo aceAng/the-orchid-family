@@ -44,10 +44,10 @@ ul.content-table li a, footer p {
   text-decoration: none;
 }
 a:visited {
-  color:#80246d;
+  color:#3a1032;
 }
 a:link {
-  color:#3a1032;
+  color:#80246d; 
 }
 a:hover, ul.content-table li a:hover {
   text-decoration:underline;
@@ -62,4 +62,9 @@ a:active {
 ::-moz-selection {
   background:#ffe1fe;
   color: #ececec;
+}
+ul.cultivars li {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
 }
