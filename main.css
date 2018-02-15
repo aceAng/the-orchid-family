@@ -29,7 +29,8 @@ p.img-cap,
 p.main-article,
 caption,
 p.further-info,
-td {
+td,
+ol {
   font-family: 'Galdeano', sans-serif;
   font-size: 0.95em;
   line-height: 1.7;
@@ -47,7 +48,7 @@ a:visited {
   color:#3a1032;
 }
 a:link {
-  color:#80246d; 
+  color:#80246d;
 }
 a:hover, ul.content-table li a:hover {
   text-decoration:underline;
@@ -67,4 +68,7 @@ ul.cultivars li {
   list-style-type: none;
   display: inline-block;
   text-align: center;
+}
+ol li a, sup a {
+  text-decoration: none;
 }
