@@ -11,10 +11,10 @@ a.back-to-intro,
 footer {
   font-family: 'Marcellus SC', serif;
 }
-h2 {
-  font-size: 2em;
+figcaption {
+  font-family: 'Galdeano', sans-serif;
 }
-li a {
-  font-size: 0.95em;
-  text-decoration: none;
+/*cultivar images*/
+div > ul {
+  list-style: none;
 }
