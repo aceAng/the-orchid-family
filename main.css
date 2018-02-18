@@ -6,12 +6,16 @@ body {
 }
 h1,
 h2,
+h3,
+h4,
 nav,
 a.back-to-intro,
 footer {
   font-family: 'Marcellus SC', serif;
 }
-figcaption {
+figcaption,
+table,
+body > div {
   font-family: 'Galdeano', sans-serif;
 }
 /*cultivar images*/
@@ -33,3 +37,44 @@ div > ul > li {
   display: inline-table;
 }
 /* cultivar images end */
+
+/* font sizes, spaces, lists and anchor styles */ 
+h1 {
+  font-size: 2.45em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1.25em;
+}
+p,
+#Stem-and-roots > ul {
+  font-size: 1.125em;
+  line-height: 1.5;
+}
+#Contents > ul > li,
+body > footer,
+nav > details,
+p.further-info {
+  font-size: 0.95em;
+}
+#Contents > ul > li > a,
+#Contents > ul > li > ul > li > a,
+details > ul > li > a,
+details > ul > li > ul > li > a,
+#Genera > ul > li > a {
+  text-decoration: none;
+}
+#Genera > ul {
+  column-width: 9em;
+}
+#Genera > ul > li {
+  list-style-position: inside;
+}
+body > div {
+  line-height: 1.3;
+}
