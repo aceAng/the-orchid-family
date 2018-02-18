@@ -17,4 +17,19 @@ figcaption {
 /*cultivar images*/
 div > ul {
   list-style: none;
+  text-align: center;
 }
+div > ul > li > figure {
+  display: table;
+  width: 1px;
+  padding: 0;
+  margin: 0;
+}
+div > ul > li > figure > p > img,
+div > ul > li > figure > figcaption  {
+  display: table-colum;
+}
+div > ul > li {
+  display: inline-table;
+}
+/* cultivar images end */
