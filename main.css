@@ -15,12 +15,13 @@ footer {
 }
 figcaption,
 table,
-div.references {
+div.references,
+div.notes {
   font-family: 'Galdeano', sans-serif;
 }
 /*cultivar images*/
 div > ul,
-div > h4 {
+h4.cultivar-h4 {
   list-style: none;
   text-align: center;
 }
@@ -64,7 +65,9 @@ p.further-info {
 details > ul > li > a,
 details > ul > li > ul > li > a,
 #Genera > ul > li > a,
-b > a /* reference */ {
+/* reference */
+b > a,
+a.points-to-reference {
   text-decoration: none;
 }
 #Genera > ul {
@@ -82,7 +85,7 @@ a:visited {
   color:#3a1032;
 }
 a:link {
-  color:#80246d;
+  color:#704864;
 }
 #Home > ul > li > a:hover,
 #Home > ul > li > ul > li > a:hover,
