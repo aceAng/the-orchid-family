@@ -107,3 +107,12 @@ a:active {
   background:#6d615a;
   color: #ececec;
 }
+
+/* images with border */
+figure.content-image {
+  display: table;
+  width: 1%;
+  border: 1px solid silver;
+  padding: 0 7px;
+  background-color: #f7edf7;
+}
