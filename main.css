@@ -73,13 +73,13 @@ details > ul > li > ul > li > a,
 }
 
 /* reference */
-b > a,
 a.points-to-reference,
 .reference > a,
 .reference > sup > a {
   text-decoration: none;
 }
-:target {
+ol > li:target,
+sup:target {
   background-color: #f5e6ff;
 }
 /* end of reference */
@@ -138,4 +138,13 @@ figure > img {
 }
 figure > figcaption > h5 {
   background-color: pink;
+}
+
+/* home page */
+.read-more {
+  text-align: right;
+}
+article {
+  box-shadow: inset 0 0 15px purple;
+  padding: 20px;
 }
