@@ -8,6 +8,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 nav,
 a.back-to-home,
 footer {
@@ -49,6 +50,9 @@ h3 {
 h4 {
   font-size: 1.25em;
 }
+h5 {
+  font-size: 1em;
+}
 p,
 #Stem-and-roots > ul {
   font-size: 1.125em;
@@ -64,10 +68,15 @@ p.further-info {
 #Home > ul > li > ul > li > a,
 details > ul > li > a,
 details > ul > li > ul > li > a,
-#Genera > ul > li > a,
+#Genera > ul > li > a {
+  text-decoration: none;
+}
+
 /* reference */
 b > a,
-a.points-to-reference {
+a.points-to-reference,
+.reference > sup > a,
+.reference > a {
   text-decoration: none;
 }
 #Genera > ul {
@@ -113,6 +122,15 @@ figure.content-image {
   display: table;
   width: 1%;
   border: 1px solid silver;
-  padding: 0 7px;
+  padding: 0 7px 3px;
   background-color: #f7edf7;
+  text-align: center;
+}
+
+/* Introduction */
+figure > img {
+    padding: 7px 0 0;
+}
+figure > figcaption > h5 {
+  background-color: pink;
 }
