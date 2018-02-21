@@ -79,6 +79,11 @@ a.points-to-reference,
 .reference > sup > a {
   text-decoration: none;
 }
+:target {
+  background-color: #f5e6ff;
+}
+/* end of reference */
+
 #Genera > ul {
   column-width: 10em;
 }
@@ -94,7 +99,7 @@ a:visited {
   color:#3a1032;
 }
 a:link {
-  color:#704864;
+  color:#67425B;
 }
 #Home > ul > li > a:hover,
 #Home > ul > li > ul > li > a:hover,
