@@ -75,8 +75,8 @@ details > ul > li > ul > li > a,
 /* reference */
 b > a,
 a.points-to-reference,
-.reference > sup > a,
-.reference > a {
+.reference > a,
+.reference > sup > a {
   text-decoration: none;
 }
 #Genera > ul {
