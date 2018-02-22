@@ -11,7 +11,8 @@ h4,
 h5,
 nav,
 a.back-to-home,
-footer {
+footer,
+ul.article-contents {
   font-family: 'Marcellus SC', serif;
 }
 figcaption,
@@ -39,7 +40,8 @@ div > ul > li {
 
 /* font sizes, spaces, lists and anchor styles */
 h1 {
-  font-size: 2.45em;
+  font-size: 2.55em;
+  text-align: center;
 }
 h2 {
   font-size: 2em;
@@ -105,7 +107,9 @@ a:link {
 #Home > ul > li > ul > li > a:hover,
 details > ul > li > a:hover,
 details > ul > li > ul > li > a:hover,
-#Genera > ul > li > a:hover {
+#Genera > ul > li > a:hover,
+.read-more > a:hover,
+ul.article-contents > li > a:hover {
   text-decoration:underline;
 }
 a:active {
@@ -137,14 +141,32 @@ figure > img {
     padding: 7px 0 0;
 }
 figure > figcaption > h5 {
-  background-color: pink;
+  background-color: #d1c6ff;
 }
 
 /* home page */
 .read-more {
   text-align: right;
 }
+.read-more > a,
+ul.article-contents > li > a {
+  text-decoration: none;
+}
+
+/* moved to other :hovers up top
+.read-more > a:hover,
+ul.description > li > a:hover
+*/
+
 article {
-  box-shadow: inset 0 0 15px purple;
-  padding: 20px;
+  box-shadow: 2px 4px 7px #d1c6ff, inset 12px 12px 7px #d1c6ff;
+  padding: 7px 50px 1px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+ul.article-contents > li {
+  padding: 0 10px 10px;
+  margin-top: 0;
+  list-style: none;
+  display: inline-block;
 }
